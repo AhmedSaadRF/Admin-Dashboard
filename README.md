@@ -16,6 +16,7 @@ If you are developing a production application, we recommend using TypeScript wi
 1_React.  
 2_React Router Dom.  
 3_Material UI.  
+4_Vite.  
 
 
 ## Steps to Create Project
