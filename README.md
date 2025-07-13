@@ -25,4 +25,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 1_Finish Main Jsx File.  
 2_Finish App Jsx File.  
+3_Finish Pages Routing.  
 
