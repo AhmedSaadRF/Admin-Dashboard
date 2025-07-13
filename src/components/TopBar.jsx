@@ -29,13 +29,7 @@ const AppBar = styled(MuiAppBar, {
   ],
 }));
 
-/**
- * TopBar component
- * @param {Object} props - The component props
- * @param {boolean} props.open - Whether the drawer is open
- * @param {() => void} props.handleDrawerOpen - Function to handle drawer opening
- */
-function TopBar({ open, handleDrawerOpen }) {
+function TopBar({open, handleDrawerOpen}) {
   return (
     <AppBar position="fixed"
       // @ts-ignore
