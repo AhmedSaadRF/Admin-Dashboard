@@ -24,3 +24,5 @@ If you are developing a production application, we recommend using TypeScript wi
 *_Upload Start Up Project Files.  
 
 1_Finish Main Jsx File.  
+2_Finish App Jsx File.  
+
