@@ -27,4 +27,5 @@ If you are developing a production application, we recommend using TypeScript wi
 2_Finish App Jsx File.  
 3_Finish Pages Routing.  
 4_Finish Theme Jsx File.  
-
+5_Finish Top Bar Component.  
+ 
