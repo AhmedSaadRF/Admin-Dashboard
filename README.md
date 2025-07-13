@@ -30,3 +30,4 @@ If you are developing a production application, we recommend using TypeScript wi
 5_Finish Top Bar Component.  
 6_Finish Top Bar Component Style.  
 7_Finish Side Bar Component.  
+8_Finish Side Bar Component Style.  
