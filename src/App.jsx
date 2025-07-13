@@ -2,8 +2,8 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
 import Typography from "@mui/material/Typography";
-import TopBar from "./components/TopBar";
-import SideBar from "./components/SideBar";
+import TopBar from "./Components/TopBar";
+import SideBar from "./Components/SideBar";
 import { createTheme, styled, ThemeProvider } from "@mui/material/styles";
 import { getDesignTokens } from "./theme";
 
