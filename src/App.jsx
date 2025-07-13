@@ -6,6 +6,7 @@ import TopBar from "./Components/TopBar";
 import SideBar from "./Components/SideBar";
 import { createTheme, styled, ThemeProvider } from "@mui/material/styles";
 import { getDesignTokens } from "./theme";
+import { Outlet } from "react-router-dom";
 
 const DrawerHeader = styled("div")(({ theme }) => ({
   display: "flex",
@@ -35,6 +36,8 @@ export default function MiniDrawer() {
 
   const theme = React.useMemo(() => createTheme(getDesignTokens(mode)), [mode]);
 
+  
+
   return (
     <ThemeProvider theme={theme}>
       <Box sx={{ display: "flex" }}>
@@ -47,7 +50,8 @@ export default function MiniDrawer() {
         <SideBar open={open} handleDrawerClose={handleDrawerClose} />
         <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
           <DrawerHeader />
-          <Typography sx={{ marginBottom: 2 }}>Ahmed Saad Alrefaey</Typography>
+          <Outlet />
+          
         </Box>
       </Box>
     </ThemeProvider>
