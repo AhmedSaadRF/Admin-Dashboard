@@ -22,3 +22,12 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Steps to Create Project
 
 *_Upload Start Up Project Files.  
+
+1_Finish Main Jsx File.  
+2_Finish App Jsx File.  
+3_Finish Pages Routing.  
+4_Finish Theme Jsx File.  
+5_Finish Top Bar Component.  
+6_Finish Top Bar Component Style.  
+7_Finish Side Bar Component.  
+8_Finish Side Bar Component Style.  
